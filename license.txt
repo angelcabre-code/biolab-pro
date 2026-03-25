@@ -1,0 +1,19 @@
+TERMINOS DE USO Y POLITICA DE PRIVACIDAD - BIOLAB PRO
+
+1. PROPIEDAD INTELECTUAL
+Biolab Pro es un software científico propiedad de Angel Cabrera Ochoa (Psicologia y Sinergia). Todos los derechos reservados. Queda prohibida la redistribucion no autorizada o ingenieria inversa del software.
+
+2. PRIVACIDAD DESDE EL DISENO (PRIVACY BY DESIGN)
+Biolab Pro ha sido disenado para operar prioritariamente de forma local y anonima. El software no almacena nombres reales de alumnos en su base de datos persistente local para proteger la intimidad de los menores.
+
+3. TRATAMIENTO DE DATOS DE MENORES
+En cumplimiento con el RGPD, la vinculacion entre el rendimiento fisico y el alumno se realiza unicamente mediante codigos alfanumericos anonimos gestionados por el docente.
+
+4. SINCRONIZACION EN LA NUBE
+Al utilizar la funcion de sincronizacion, los datos (tiempos de vuelo, marcas) se enviaran de forma cifrada a los servidores de Sinergia Deportiva, vinculados unicamente al codigo personal.
+
+5. RESPONSABILIDAD DEL USUARIO
+El usuario se compromete a utilizar la herramienta en el marco de la legalidad vigente de su centro educativo o institucion deportiva.
+
+6. ACEPTACION DE TERMINOS
+Al pulsar en 'Aceptar', usted confirma que ha leido y acepta integramente estos terminos para el uso de Biolab Pro v1.0.
