@@ -280,12 +280,12 @@ const SESSION_LICENSE_KEY = 'biolab_session_license_shown';
 const showLegalModal = ref(false);
 
 const licenseBlocks = [
-  { title: "1. PROPIEDAD INTELECTUAL", content: "Biolab Pro es un software científico propiedad de <strong>Ángel Cabrera Ochoa (Psicología y Sinergia)</strong>. Todos los derechos reservados. Queda prohibida la redistribución no autorizada o ingeniería inversa del software." },
-  { title: "2. PRIVACIDAD DESDE EL DISEÑO (PRIVACY BY DESIGN)", content: "Biolab Pro ha sido diseñado para operar prioritariamente de forma local y anónima. El software no almacena nombres reales de alumnos en su base de datos persistente local para proteger la intimidad de los menores." },
-  { title: "3. TRATAMIENTO DE DATOS DE MENORES", content: "En cumplimiento con el RGPD, la vinculación entre el rendimiento físico y el alumno se realiza únicamente mediante códigos alfanuméricos anónimos gestionados por el docente." },
-  { title: "4. SINCRONIZACIÓN EN LA NUBE", content: "Al utilizar la función de sincronización, los datos (tiempos de vuelo, marcas) se enviarán de forma cifrada a los servidores de Sinergia Deportiva, vinculados únicamente al código personal." },
-  { title: "5. RESPONSABILIDAD DEL USUARIO", content: "El usuario se compromete a utilizar la herramienta en el marco de la legalidad vigente de su centro educativo o institución deportiva." },
-  { title: "6. ACEPTACIÓN DE TÉRMINOS", content: "Al pulsar en 'Aceptar', usted confirma que ha leído y acepta íntegramente estos términos para el uso de Biolab Pro v1.0.6." }
+  { title: "1. NATURALEZA OPEN SOURCE", content: "Biolab Pro es un software de <strong>Código Abierto</strong>. El código fuente está disponible para la comunidad bajo los términos de su licencia en el repositorio oficial. El autor original es Ángel Cabrera Ochoa (Psicología y Sinergia)." },
+  { title: "2. INTEGRACIÓN CON SINERGIA TEACHER", content: "Biolab Pro incluye sincronización opcional con la plataforma <strong>Sinergia Teacher</strong>. Al ser este un sistema profesional y protegido, ciertos protocolos de integración están restringidos para garantizar la seguridad del ecosistema propietario." },
+  { title: "3. PRIVACIDAD DESDE EL DISEÑO", content: "El software opera prioritariamente de forma local y anónima. No se almacenan nombres reales de menores en la base de datos local para proteger su identidad, utilizando códigos alfanuméricos gestionados por el docente." },
+  { title: "4. TRATAMIENTO DE DATOS", content: "En cumplimiento con el RGPD, los datos sincronizados en la nube se vinculan únicamente a códigos anónimos y se transmiten de forma cifrada a los servidores de Sinergia Deportiva." },
+  { title: "5. USO RESPONSABLE", content: "Al ser una herramienta científica y educativa, el usuario es responsable de su uso en cumplimiento con la legalidad de su institución." },
+  { title: "6. ACEPTACIÓN DE TÉRMINOS", content: "Al pulsar en 'Aceptar', usted confirma que acepta estos términos para el uso de Biolab Pro v1.0.6 (Open Source Edition)." }
 ];
 
 const handleLegalScroll = (e: Event) => {
