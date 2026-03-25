@@ -159,10 +159,10 @@ class Esp32Service {
       if (sub === 'PURA') {
         t_reac = 0; // Pureza is photocell-to-photocell, no reaction
       } else if (sub === 'CLASICA') {
-        // Clásica has a beep. If reaction < 0.2s, it's null
-        if (t_reac < 0.2) {
+        // Clásica has a beep. If reaction < 0.1s, it's null (IAAF/WA Regulations)
+        if (t_reac < 0.1) {
           nula = true;
-          msg_nula = 'REACCIÓN < 0.2s';
+          msg_nula = 'REACCIÓN < 0.1s';
         }
       }
     }

@@ -48,7 +48,7 @@ export class DesktopService {
       }
     } else {
       this.machineId = 'web-fallback-' + Math.random().toString(36).substring(7);
-      console.info('🌐 Web Mode Detected. Fallback ID:', this.machineId);
+      console.info('🌐 Web Mode Detected. Fallback ID:', this.machineId, '(isFallback:', this.isFallback, ')');
     }
   }
 
